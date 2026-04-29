@@ -12,7 +12,10 @@ Para procesar este volumen de datos y extraer informacion util, el proyecto se d
 ### 1. Ingesta y Exploracion de Datos (SQL)
 Se migro la base de datos plana a un servidor relacional usando PostgreSQL. Mediante consultas SQL, se realizo un analisis exploratorio para entender la distribucion de los datos, promedios de ingresos, saldos y tasas base de abandono.
 
-![Exploracion de Datos en pgAdmin](Script_01.png)
+![Exploracion de Datos en pgAdmin]<img width="1919" height="1031" alt="Script_01" src="https://github.com/user-attachments/assets/4ec22e6e-e8a0-47d6-aff8-85e28c515575" />
+
+
+
 
 ### 2. Transformacion y Reglas de Negocio (SQL)
 No se trabajo con los datos crudos. Se desarrollo codigo SQL avanzado (creacion de vistas y sentencias condicionales) para calcular nuevas metricas y segmentar a los clientes en tres rubros clave:
@@ -20,12 +23,12 @@ No se trabajo con los datos crudos. Se desarrollo codigo SQL avanzado (creacion 
 - Segmento de Valor (VIP, Estandar, Bajo Valor).
 - Alerta de Retencion (Cliente Estable, Riesgo Moderado, Riesgo Critico).
 
-![Transformacion y Segmentacion ETL](Script_02.png)
+![Transformacion y Segmentacion ETL]<img width="1919" height="1036" alt="Script_02" src="https://github.com/user-attachments/assets/fd466ba3-2e77-45b9-9c0d-c02654f0f661" />
 
 ### 3. Visualizacion para Toma de Decisiones (Power BI)
 La base de datos procesada se conecto directamente a Power BI. Se construyo un dashboard gerencial que traduce las reglas de negocio en graficas claras. Esto permite filtrar la cartera por variables demograficas y detectar de inmediato los focos rojos de la operacion.
 
-![Dashboard de Riesgo y Retencion](dashboard.png)
+![Dashboard de Riesgo y Retencion]<img width="1430" height="801" alt="dashboard" src="https://github.com/user-attachments/assets/c2b83d96-be02-4dc6-a9d1-0abf5c430674" />
 
 ## Resultados Principales
 
